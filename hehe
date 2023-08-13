@@ -128,6 +128,7 @@ apt install ufw -y > /dev/null 2>&1
 ufw --force enable
 
 # Allow specific ports through UFW
+ufw allow 22/tcp
 ufw allow 443/tcp
 ufw allow 80/tcp
 ufw allow 3128/tcp
